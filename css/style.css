@@ -213,8 +213,10 @@ nav li:hover a {
   /* transform: scale(100%); */
   scale: 110%;
 }
-.card span{
-  top: 10px;
+.card span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
 }
 
 .card img {
@@ -226,6 +228,7 @@ nav li:hover a {
   font-weight: 600;
   color: #3f0808;
   font-family: cursive;
+  margin-bottom: 1rem;
 }
 
 .loc-cont {
@@ -251,7 +254,7 @@ iframe {
   border: 1px solid;
 }
 
-#contact h2{
+#contact h2 {
   color: #fefae0;
   font-size: 2rem;
   text-shadow: 0 0 10px black;
@@ -263,43 +266,43 @@ iframe {
   text-shadow: 0 0 10px black;
 } */
 
-#contact h4{
+#contact h4 {
   color: #fefae0;
   font-size: 1rem;
   text-shadow: 0 0 10px black;
 }
 
-.icon-set{
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 3%;
+.icon-set {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
 }
 
-.icon{
-	margin: 2rem;
-	width: 50px;
-	height: 50px;
-	/* border: 1px solid; */
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.icon {
+  margin: 2rem;
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon i{
-	color: black;	
+.icon i {
+  color: black;
 }
 
-.icon:hover{
-	background-image: linear-gradient(to bottom right , yellow , green);
+.icon:hover {
+  background-image: linear-gradient(to bottom right, yellow, green);
 }
 
-.icon:hover i{
-	color:#fff;
-	transform: scale(120%);
-	animation: shake 1s;
+.icon:hover i {
+  color: #fff;
+  transform: scale(120%);
+  animation: shake 1s;
 }
 /* ================BORDER================== */
 * {
